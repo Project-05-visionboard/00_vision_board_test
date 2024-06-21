@@ -6,7 +6,7 @@
 import sensor, image, time
 
 # 颜色追踪的例子，一定要控制环境的光，保持光线是稳定的。
-green_threshold   = (   0,   80,  -70,   -10,   -0,   30)
+green_threshold   = (   60,   65,  8,   13,   50,   54)
 #设置绿色的阈值，括号里面的数值分别是L A B 的最大值和最小值（minL, maxL, minA,
 # maxA, minB, maxB），LAB的值在图像左侧三个坐标图中选取。如果是灰度图，则只需
 #设置（min, max）两个数字即可。
